@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-### Hello-Webpack
-Set up a project with Webpack to bundle JavaScript and CSS files.
+## Leaderboard
+setup a leaderboard for your project
 
 ## Built With
 
