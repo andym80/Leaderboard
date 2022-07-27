@@ -1,7 +1,52 @@
 body {
-	background-color: black;
+  display: flex;
+  font: 1.4em/1.4 base, "Source Sans Pro", Verdana, sans-serif;
+  overflow-x: hidden;
 }
+
+/* recent scores */
+.board-list {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 12rem;
+  width: 100%;
+  height: 100%;
+}
+
 h1 {
-	color: white;
-	text-align: center;
+  margin-left: 4rem;
+  font-size: 4em;
+  color: black;
+  width: 100%;
+}
+
+.input-players {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5rem;
+  margin-top: 15.27rem;
+}
+
+.input-title {
+  padding-left: 2rem;
+}
+
+#refresh {
+  margin-left: 3rem;
+}
+
+#submitbtn {
+  margin-left: 6.3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.names {
+  margin-bottom: 1.5rem;
 }
