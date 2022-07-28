@@ -31,7 +31,8 @@
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "node-modules": "^0.0.1"
   },
   "main": "webpack.config.js",
   "description": ""
