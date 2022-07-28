@@ -7,15 +7,17 @@
     <script defer src="runtime.js"></script>
     <script defer src="main.js"></script>
 </head>
-<body>
+<header>
     <h1>Leaderboard</h1>
-
-    <article class="table-scores">
+</header>
+<body>
+<section class="all">
+    <section class="table-scores">
         <div class="board-list">
             <div class="h2">Recent Scores<span class="h2refresh"></span>
-                <button type="submit" id="refresh">refresh</button>
+                <button type="submit" id="refresh">Refresh</button>
             </div>
-            <div class="board-list-item">
+           <div class="board-list-item">
                 <div class="scores">
                     <div class="names">
                         <div class="points">
@@ -23,17 +25,17 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </article>
+</section>
 
-    <article class="input-players">
+    <section class="input-players">
         <div class="input-title">Add your score</div>
         <ul class="form">
             <li><input class="names" type="text" placeholder="Enter your name"></li>
             <li><input class="scores" type="text" placeholder="Enter your score"></li>
             </ul>
             <div class="btn"><button type="submit" id="submitbtn">Submit</button></div>
-    </article>
+    </section>
+</section>
 
 </body>
 
