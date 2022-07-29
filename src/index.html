@@ -23,7 +23,7 @@
                 <div class="board-list-item">
                     <div class="scores">
                         <div class="names">
-                            <div class="points">
+                            <div id="points">
                             </div>
                         </div>
                     </div>
@@ -33,11 +33,11 @@
 
         <section class="input-players">
             <div class="input-title">Add your score</div>
-            <ul class="form">
-                <li><input class="names" type="text" placeholder="Enter your name"></li>
-                <li><input class="scores" type="text" placeholder="Enter your score"></li>
-            </ul>
-            <div class="btn"><button type="submit" id="submitbtn">Submit</button></div>
+            <form>
+                <input class="names" type="text" id="user" placeholder="Enter your name">
+                <input class="scores" type="text" id="score" placeholder="Enter your score">
+                <button class="btn" type="submit" id="submitbtn">Submit</button>
+            </form>
         </section>
     </section>
 </body>

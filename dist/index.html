@@ -7,7 +7,7 @@
     <title>Leaderboard by @andym80</title>
     <script defer src="runtime.js"></script>
     <script defer src="main.js"></script>
-</head>
+<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 <body>
 <header>
     <h1>Leaderboard</h1>
@@ -33,9 +33,9 @@
 
         <section class="input-players">
             <div class="input-title">Add your score</div>
-            <ul class="form">
-                <li><input class="names" type="text" placeholder="Enter your name"></li>
-                <li><input class="scores" type="text" placeholder="Enter your score"></li>
+            <form>
+                <input class="names" type="text" id="user" placeholder="Enter your name">
+                <input class="scores" type="text" id="score" placeholder="Enter your score">
             </ul>
             <div class="btn"><button type="submit" id="submitbtn">Submit</button></div>
         </section>
