@@ -10,11 +10,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
+      title:'Caching',
     }),
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js',
+    filename: '[name].[contenthas].js',
     clean: true,
   },
   module: {

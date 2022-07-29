@@ -1,7 +1,7 @@
 import plusScore from './addScores.js';
 
 const sumScores = () => {
-  const ScoresAll = document.getElementById('points');
+  const ScoresAll = document.getElementById('.points');
   ScoresAll.innerHTML = '';
   const getScoresData = async () => {
     const request = await fetch(
