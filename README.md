@@ -9,6 +9,8 @@ Set up a tablescore with functionality to submit and refresh all scores passing 
 - Webpack
 - API
 
+## Demo https://loom.com/share/11e957d0eafa48cb85c92fa488666015
+
 ## Getting Started
 
 Get a copy from this repository on GitHub at CODE (green icon) and paste into your code editor .
