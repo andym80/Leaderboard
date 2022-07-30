@@ -1,12 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-### Hello-Webpack
-Set up a project with Webpack to bundle JavaScript and CSS files.
+### LEADERBOARD
+Set up a tablescore with functionality to submit and refresh all scores passing through an API. 
 
 ## Built With
 
 - HTML/CSS
 - JavaScript
 - Webpack
+- API
 
 ## Getting Started
 
