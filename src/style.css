@@ -2,6 +2,20 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'robot';
+  src: url('robotfont.ttf') format('truetype');
+}
+
+.andy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.andy:nth-child(even) {
+  background-image: linear-gradient(to bottom, rgb(134, 134, 182), rgb(218, 47, 189));
+}
+
 html {
   font-size: 62.5%;
 }
@@ -15,13 +29,16 @@ header {
 
 .all {
   display: flex;
+  column-gap: 8rem;
 }
 
 body {
   display: flex;
   flex-direction: column;
   font: 1.4em/1.4 base, "Source Sans Pro", Verdana, sans-serif;
-  overflow-x: hidden;
+  background-image: url('./giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* recent scores */
@@ -32,9 +49,16 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 12rem;
   color: black;
   width: 100%;
+}
+
+h2 {
+  font-size: 6rem;
+  color: black;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .input-players {
@@ -49,8 +73,20 @@ h1 {
   padding-left: 4rem;
 }
 
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
 #refresh {
   margin-left: 3rem;
+}
+
+.points {
+  height: 18.75rem;
+  overflow-y: auto;
 }
 
 #submitbtn {
