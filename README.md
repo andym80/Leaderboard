@@ -1,12 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-## Leaderboard
-setup a leaderboard for your project
+### LEADERBOARD
+Set up a tablescore with functionality to submit and refresh all scores passing through an API.
 
 ## Built With
 
 - HTML/CSS
 - JavaScript
 - Webpack
+- API
+
+## Demo https://loom.com/share/11e957d0eafa48cb85c92fa488666015
 
 ## Getting Started
 

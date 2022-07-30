@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaderboard by @andym80</title>
     <script defer src="runtime.js"></script>
     <script defer src="main.js"></script>
-</head>
-<header>
-    <h1>Leaderboard</h1>
-</header>
-<body>
-<section class="all">
-    <section class="table-scores">
+    <script defer src="runtime.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+
+    <section class="all">
+      <section class="table-scores">
         <div class="board-list">
-            <div class="h2">Recent Scores<span class="h2refresh"></span>
-                <button type="submit" id="refresh">Refresh</button>
-            </div>
-           <div class="board-list-item">
-                <div class="scores">
-                    <div class="names">
-                        <div class="points">
-                        </div>
-                    </div>
-                </div>
-            </div>
-</section>
+          <div class="h2">
+            Recent Scores<span class="h2refresh"></span>
+            <button type="submit" id="refresh">Refresh</button>
+          </div>
+          <div class="points"></div>
+        </div>
+      </section>
 
-    <section class="input-players">
+      <section class="input-players">
         <div class="input-title">Add your score</div>
-        <ul class="form">
-            <li><input class="names" type="text" placeholder="Enter your name"></li>
-            <li><input class="scores" type="text" placeholder="Enter your score"></li>
-            </ul>
-            <div class="btn"><button type="submit" id="submitbtn">Submit</button></div>
+        <form id="form">
+          <input
+            class="names"
+            type="text"
+            id="user"
+            placeholder="Enter your name"
+          />
+          <input
+            class="scores"
+            type="number"
+            id="score"
+            placeholder="Enter your score"
+          />
+          <button type="submit" id="submitbtn">Submit</button>
+        </form>
+      </section>
     </section>
-</section>
 
+  <footer>
+    <p>
+      1-click Submit & 2-click Refresh to show scores <br /><br /><br />&copy;
+      2022 by @andym80
+    </p>
+  </footer>
 </body>
 
-</html>
+  </html>
